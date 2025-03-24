@@ -1,0 +1,84 @@
+
+:root{
+    --cor1: #363636;
+    --cor2: #dcdcdc;
+    --cor3: #b4b4b4;
+    --cor4: #59a3df;
+}
+@media screen and (max-width: 760px){
+    div.img img{
+        transition: 0.5s;
+        display: block;
+        margin-top: 30px;
+        max-width: 350px;
+    }
+    .a3{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        gap: 20px;
+    
+    }
+    .code1, .code2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .code1 div{
+        margin: -20px;
+        width: 90%;
+        max-width: 400px;
+        & p{
+        text-align: center;
+        margin-bottom: 40px;
+        }
+    }
+    .code2 div{
+        margin: -20px;
+        width: 90%;
+        max-width: 400px;
+        & p{
+        text-align: center;
+        }
+    }
+    .ex1, .ex2{
+        width: 90%;
+        max-width: 500px;
+        
+    }
+}
+@media screen and (max-width: 760px){
+    nav, .links{
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        display: none;
+    }
+    .links{ 
+        text-align: center;   
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        display: none;
+    }
+    .links a{
+        padding: 17px;
+    }
+    nav{
+        padding-top: 20px;
+    }
+    button{
+        display:flex ;
+        position: absolute;
+        top: 10px;
+        display: none;
+    }
+    .img{
+        margin-top: 10px;
+
+    }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="assets/img/logo-html.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/responsividade.css">
+    <title>HTML Semântico</title>
+</head>
+<body>
+    <header id="lk1">
+        <nav class="stick">
+            <div class="logo"><img  src="assets/img/logo-html.png">
+                
+                <button id="menu-btn">&#9776;</button>
+            </div> <!--logo-->
+            <div class="links">
+                <a href="#lk1"><i>O que é?</i>     </a>
+                <a href="#lk2">Exemplos            </a>
+                <a href="#lk3">Benefícios             </a>
+                <a href="#">Na prática             </a>
+
+            </div><!--links-->
+        </nav>
+        
+    </header>
+    <div class="container1">
+        <div class="img">
+                <img src="assets/img/semantica.png" alt="Semântica">
+        </div>
+    </div>
+    <main>
+        <article class="a1">
+            <h2>O que é a Semântica na HTML?</h2>
+            <p>No contexto do <abbr title="Hiper Text Markup Lenguage">HTML</abbr>, semântica refere-se ao uso de elementos que 
+                possuem um significado claro e descritivo para representar o conteúdo 
+                de uma página web. Em vez de apenas estruturar visualmente um site,
+                o <abbr title="Hiper Text Markup Lenguage">HTML</abbr> semântico ajuda a definir a função de cada elemento, tornando 
+                o código mais organizado, acessível e compreensível para navegadores,
+                mecanismos de busca e desenvolvedores.</p>
+        </article><!--a1-->
+        <article class="a2">
+            <h2>O uso adequado das tags semânticas faz diferença?</h2>
+                <p>
+                    Sim! O uso correto das tags semânticas na <abbr title="Hiper Text Markup Lenguage">HTML</abbr> faz uma grande diferença, 
+                    tanto para a acessibilidade, a usabilidade, o <abbr title="Search Engine Optimization">SEO</abbr> (otimização para mecanismos 
+                    de busca) e até mesmo para a manutenção do código.
+                </p>
+        </article>
+        <article class="a3" id="lk2">
+            <div class="code1">
+                <h3>Exemplo de Código não semântico</h3>
+                <picture>
+                    <img class="ex1" src="assets/img/code.png" alt="">
+                </picture>
+                <div>
+                    <h4>Problema:</h4>
+                        <p>
+                            O código usa &lt;<span class="destaque">div</span>&gt; para tudo, o que dificulta
+                                a compreensão e manutenção, além de dificultar o
+                                entendimento do propósito de cada parte do site
+                                para os navegadores, mecanismos de busca e
+                                leitores de tela.
+                        </p>
+                    
+                </div>
+            </div>
+            <div class="code2">
+                <h3>Exemplo de Código semântico</h3>
+                <picture>
+                    <img class="ex2" src="assets/img/code-r.png" alt="">
+                </picture>
+                <div>
+                    <h4>Melhoria:</h4>
+                    <p>Agora o código tem uma estrutura clara,
+                        facilitando futuras edições. Agora só de olhar
+                        o código sabemos que &lt;<span class="destaque">header</span>&gt; contém o
+                        cabeçalho, &lt;<span class="destaque">main</span>&gt; tem o conteúdo principal
+                        e &lt;<span class="destaque">footer</span>&gt; é o rodapé.</p>
+                </div>
+            </div>
+
+        </article><!--lk2-->
+        <article class="a4" id="lk3">
+            <h2>Benefícios</h2>
+            <div class="legibilidade">
+                <h3 class="ponto">Legibilidade do código</h3>
+                <p>• Torna o código mais fácil de manter e atualizar no futuro  </p>
+                <p>• Contribui para um código limpo e acessível para humanos e máquinas  </p>
+                <p>• Ajuda a criar uma hierarquia lógica e consistente  </p>
+
+            </div><!--legibilidade-->
+            <div class="estruturacao">
+                <h3 class="ponto">Estruturação do conteúdo</h3>
+                <p>• Promove uma estruturação mais clara e semântica do conteúdo da página</p>
+                <p>• Aumenta a compreensibilidade e eficiência</p>
+                <p>• Ajuda a criar uma experiência web melhor para os usuários</p>
+
+            </div><!--estruturacao-->
+            <div class="seo">
+                
+                <h3 class="ponto">SEO</h3>
+                <p>• Ajuda os mecanismos de busca a entender a estrutura e o contexto do conteúdo </p>
+                <p>• Aumenta as chances de classificação mais alta nos resultados de pesquisa </p>
+                <p>• Contribui para um código mais otimizado para SEO </p>
+            </div><!--seo-->
+            <div class="acessibilidade">
+                <h3 class="ponto">Acessibilidade </h3>
+                <p>• Torna o site mais claro e organizado, facilitando a navegação e a compreensão do conteúdo</p>
+                <p>• Melhora a experiência de usuários com deficiências visuais ou cognitivas</p>
+
+            </div><!--acessibilidade-->
+        </article><!--a4/lk3-->
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
