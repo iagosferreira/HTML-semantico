@@ -5,7 +5,7 @@
     --cor3: #b4b4b4;
     --cor4: #59a3df;
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 650px){
     div.img img{
         transition: 0.5s;
         display: block;
@@ -50,8 +50,30 @@
         max-width: 500px;
         
     }
+    div.vds{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    div.vds a{
+        text-decoration: none;
+        font-weight: 600;
+        column-span: var(--cor2);
+        
+    }
+    div.vds p:hover{
+        transition: 1s;
+        color: var(--cor4);
+        
+    }
+    
+    .if1,.if2,.if3{ 
+        max-width: 300px;
+        width: 70vw;
+    }
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 650px){
     nav, .links{
         display: flex;
         flex-direction: column;
