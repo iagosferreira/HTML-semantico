@@ -72,6 +72,16 @@
         max-width: 300px;
         width: 70vw;
     }
+    .footer div{
+        height: 2px;
+        width: 90%;
+        border-radius: 20px;
+        background-color: var(--cor2);
+    }
+    .footer p{
+        width: 80%;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 650px){
     nav, .links{
